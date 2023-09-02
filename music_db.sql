@@ -109,4 +109,9 @@ ON cc.billing_country = ms.billing_country
 WHERE cc.total_spending = ms.max_spending
 ORDER BY 1;
 
+/*Return all the track names that have a song length longer than the average song length. 
+Return the Name and Milliseconds for each track. Order by the song length with the 
+longest songs listed first*/
+select *
+ from employee
 
